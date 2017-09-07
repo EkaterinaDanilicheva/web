@@ -1,0 +1,61 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+header, section, footer, side, nav {
+	display: block;
+}
+
+#main {
+	width: 1000px;
+	margin: 10px auto;
+	background-color: #F521EE;
+}
+
+header {
+	height: 50px;
+	padding: 20px;
+	background: #F5218F;
+	border: 1px solid #999999;
+}
+
+nav {
+	background: #0CF;
+	padding: 5px 15px;
+}
+
+nav li {
+	display: inline-block;
+	list-style: none;
+	padding: 10px 20px;
+}
+
+section {
+	float: left;
+	width: 800px;
+	height: 500px;
+	background: #e69afc;
+}
+
+section p {
+	font-size: 14px;
+	padding: 10px;
+	line-height: 1.3em;
+}
+
+aside {
+	float: left;
+	width: 200px;
+	height: 500px;
+	background: #FCF;
+}
+
+footer {
+	clear: both;
+	height: 100px;
+	text-align: center;
+	padding: 20px;
+	border-top: 20px solid #999;
+	background: #d6d6d6;
+}

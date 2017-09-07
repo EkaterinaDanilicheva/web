@@ -1,0 +1,48 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+header, main_menu, footer, content {
+	display: block;
+}
+
+#main {
+	width: 1000px;
+	margin: 10px auto;
+	background-color: #F521EE;
+}
+
+header {
+	height: 50px;
+	padding: 20px;
+	background: #ED1919;
+	border: 1px solid #999999;
+}
+
+main_menu {
+	background: #0CF;
+	padding: 5px 15px;
+}
+
+main_menu li {
+	display: inline-block;
+	list-style: none;
+	padding: 10px 20px;
+}
+
+content {
+	float: left;
+	width: 800px;
+	height: 500px;
+	background: #e69afc;
+}
+
+footer {
+	clear: both;
+	height: 100px;
+	text-align: center;
+	padding: 20px;
+	border-top: 20px solid #999;
+	background: #d6d6d6;
+}

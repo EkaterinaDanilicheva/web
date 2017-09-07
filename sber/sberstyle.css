@@ -1,0 +1,152 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+header, section, footer, side, nav, menu {
+	display: block;
+}
+
+#main {
+	width: 1000px;
+	margin: 10px auto;
+	background-color: #FFFFFF;
+	border: 1px solid #CFF1C9;
+}
+
+/*Шапка с лого и контактами*/
+
+header {
+	height: 100px;
+	background: #FFFFFF;
+}
+
+#logo {
+	float: left;
+	width: 300px;
+}
+
+#logo img {
+	margin: 0 0 0 30px;
+	width: 300px;
+}
+
+#contacts {
+	float: right;
+	margin: 5px 90px 0 0;
+}
+
+#contacts span {
+	color: #545A51;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/*Меню*/
+
+nav {
+	background: #28B216;
+}
+
+nav li {
+	display: inline-block;
+	list-style: none;
+}
+
+nav a {
+	color: #CFF1C9;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#one {
+	border-bottom: 20px solid #FFFFFF;
+}
+
+#one li {
+	padding: 2px 15px;
+}
+
+#one a{
+	font-size: 12px;
+}
+
+#two {
+	padding: 7px;
+	margin: 5px;
+	border-radius: 3px;
+	box-shadow: inset 0 15px 15px  -15px #333 , inset 0 -15px 15px  -15px #333;
+}
+
+#two li {
+	width: 155px;
+	text-align: left;
+	border-right: 2px solid #84CC7B;
+}
+
+#two a {
+	font-size: 15px;
+}
+ 
+#two a:hover {
+	color: #E1F7DD; /* Цвет ссылки при наведении на нее курсора мыши */  
+}
+
+/*Основной блок*/
+
+section {
+	
+	width: 1000px;
+	height: 400px;
+	background: #FFFFFF;
+}
+
+section p {
+	font-size: 18px;
+	color: #545A51;
+	font-weight: bold;
+	margin: 20px 0 0 30px;
+}
+
+#flowerp {
+	font-size: 15px;
+	color: #545A51;
+	font-weight: bold;
+	margin: 20px 0 0 30px;
+	line-height: 1.5;
+}
+
+section b {
+	font-size: 17px;
+	color: black;
+	font-weight: bold;
+}
+
+
+section li {
+	margin: 30px 0;
+	float: left;
+	width: 25%;
+	text-align: center;
+	list-style-type: none;
+	color: #545A51;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+section img {
+	width: 100px;
+	height: 100px; 
+}
+
+/*Подвал*/
+
+footer {
+	height: 20px;
+	text-align: left;
+	padding: 20px;
+	background: #FFFFFF;
+	font-size: 10px;
+	color: #545A51;
+}
